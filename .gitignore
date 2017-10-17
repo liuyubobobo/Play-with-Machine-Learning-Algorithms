@@ -1,0 +1,22 @@
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+##########################
+# Jetbrains Ignore files #
+##########################
+.idea/
+
+#######################
+# Python Ignore files #
+#######################
+__pycache__/
+.ipynb_checkpoints/
+
