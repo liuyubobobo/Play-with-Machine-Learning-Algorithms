@@ -3,22 +3,17 @@ import numpy as np
 class KNN:
 
     def __init__(self, k):
-        '''
-        初始化kNN算法，传入参数k
-        :param k:  
-        '''
         self.k = k
 
-    def fit(self, X, y):
-        '''
-        
-        :param X: 
-        :param y: 
-        :return: 
-        '''
-        self._fit_X = X.copy()
-        self._fit_y = y.copy()
+    def fit(self, train_X, train_y):
+        self._train_X = train_X
+        self._train_y = train_y
         return self
 
-    def predict(self, x):
+    def predict(self, test_X):
+        '''
+        
+        :param test_X: 
+        :return: 
+        '''
         pass
