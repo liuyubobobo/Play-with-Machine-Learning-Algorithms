@@ -3,7 +3,7 @@ from math import sqrt
 from collections import Counter
 
 
-class KNN:
+class KNNClassifier:
 
     def __init__(self, k):
         """初始化kNN分类器"""
