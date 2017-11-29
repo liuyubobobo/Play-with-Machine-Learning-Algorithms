@@ -1,0 +1,2 @@
+def predict(x):
+    print("?")
