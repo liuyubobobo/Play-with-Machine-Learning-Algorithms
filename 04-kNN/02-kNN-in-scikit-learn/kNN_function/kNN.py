@@ -11,7 +11,7 @@ def kNN_classify(k, X_train, y_train, x):
     assert X_train.shape[1] == x.shape[0], \
         "the feature number of x must be equal to X_train"
 
-    distances = [(sqrt(((x_train - x)**2).sum()), y_train[i])
+    distances = [(sqrt(np.sum((x_train - x)**2)), y_train[i])
                  for i, x_train in enumerate(X_train)]
     distances.sort()
 
