@@ -25,7 +25,7 @@ class KNNClassifier:
 
     def predict(self, X_predict):
         """给定待预测数据集X_predict，返回表示X_predict的结果向量"""
-        assert self._X_train is not None and self._X_train is not None, \
+        assert self._X_train is not None and self._y_train is not None, \
                 "must fit before predict!"
         assert X_predict.shape[1] == self._X_train.shape[1], \
                 "the feature number of X_predict must be equal to X_train"
@@ -34,16 +34,17 @@ class KNNClassifier:
         return np.array(y_predict)
 
     def _predict(self, x):
-        """给定单个待预测数据x，返回x_predict的预测结果值"""
+        """给定单个待预测数据x，返回x的预测结果值"""
         assert x.shape[0] == self._X_train.shape[1], \
             "the feature number of x must be equal to X_train"
-        distances = [(sqrt(((x_train - x) ** 2).sum()), self._y_train[i])
-                     for i, x_train in enumerate(self._X_train)]
-        distances.sort()
 
-        topK_y = [pair[1] for pair in distances[:self.k]]
+        distances = [sqrt(np.sum((x_train - x) ** 2))
+                     for x_train in self._X_train]
+        nearest = np.argsort(distances)
 
+        topK_y = [self._y_train[i] for i in nearest[:self.k]]
         votes = Counter(topK_y)
+
         return votes.most_common(1)[0][0]
 
     def __repr__(self):
