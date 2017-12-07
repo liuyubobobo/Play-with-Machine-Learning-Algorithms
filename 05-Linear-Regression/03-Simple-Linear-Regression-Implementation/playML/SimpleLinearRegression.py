@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class SimpleLinearRegressor1:
+class SimpleLinearRegression1:
 
     def __init__(self):
         """初始化kNN分类器"""
@@ -9,7 +9,7 @@ class SimpleLinearRegressor1:
         self.b_ = None
 
     def fit(self, x_train, y_train):
-        """根据训练数据集x_train训练Simple Linear Regressor"""
+        """根据训练数据集x_train训练Simple Linear Regression模型"""
         assert x_train.ndim == 1, \
             "Simple Linear Regressor can only solve single feature training data."
         assert len(x_train) == len(y_train), \
@@ -43,18 +43,18 @@ class SimpleLinearRegressor1:
         return self.a_ * x_single + self.b_
 
     def __repr__(self):
-        return "SimpleLinearRegressor1()" % self.k
+        return "SimpleLinearRegression1()"
 
 
-class SimpleLinearRegressor2:
+class SimpleLinearRegression2:
 
     def __init__(self):
-        """初始化kNN分类器"""
+        """初始化Simple Linear Regression模型"""
         self.a_ = None
         self.b_ = None
 
     def fit(self, x_train, y_train):
-        """根据训练数据集x_train训练Simple Linear Regressor"""
+        """根据训练数据集x_train训练Simple Linear Regression模型"""
         assert x_train.ndim == 1, \
             "Simple Linear Regressor can only solve single feature training data."
         assert len(x_train) == len(y_train), \
@@ -82,4 +82,4 @@ class SimpleLinearRegressor2:
         return self.a_ * x_single + self.b_
 
     def __repr__(self):
-        return "SimpleLinearRegressor2()" % self.k
+        return "SimpleLinearRegression2()"
