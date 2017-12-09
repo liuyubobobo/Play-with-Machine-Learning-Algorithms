@@ -37,10 +37,10 @@ class SimpleLinearRegression:
         """给定单个待预测数据x，返回x的预测结果值"""
         return self.a_ * x_single + self.b_
 
-    def score(self, X_test, y_test):
-        """根据测试数据集 X_test 和 y_test 确定当前模型的准确度"""
+    def score(self, x_test, y_test):
+        """根据测试数据集 x_test 和 y_test 确定当前模型的准确度"""
 
-        y_predict = self.predict(X_test)
+        y_predict = self.predict(x_test)
         return r2_score(y_test, y_predict)
 
     def __repr__(self):
