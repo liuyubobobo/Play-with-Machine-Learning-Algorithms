@@ -28,14 +28,12 @@ class LinearRegression:
             "the size of X_train must be equal to the size of y_train"
 
         def J(theta, X_b, y):
-            return np.sum((y - X_b.dot(theta)) ** 2) * 2. / len(y)
-
+            try:
+                return np.sum((y - X_b.dot(theta)) ** 2) / len(y)
+            except:
+                return float('inf')
+            
         def dJ(theta, X_b, y):
-            # res = [0] * len(theta)
-            # res[0] = np.sum(X_b.dot(theta) - y)
-            # for i in range(1, len(theta)):
-            #     res[i] = (X_b.dot(theta) - y).dot(X_b[:, i])
-            # return np.array(res) / len(X_b)
             return X_b.T.dot(X_b.dot(theta) - y) * 2. / len(y)
 
         def gradient_descent(X_b, y, initial_theta, eta, n_iters=1e4, epsilon=1e-8):

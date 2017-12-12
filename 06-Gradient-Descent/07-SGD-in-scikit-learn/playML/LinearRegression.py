@@ -28,7 +28,10 @@ class LinearRegression:
             "the size of X_train must be equal to the size of y_train"
 
         def J(theta, X_b, y):
-            return np.sum((y - X_b.dot(theta)) ** 2) * 2. / len(y)
+            try:
+                return np.sum((y - X_b.dot(theta)) ** 2) / len(y)
+            except:
+                return float('inf')
 
         def dJ(theta, X_b, y):
             return X_b.T.dot(X_b.dot(theta) - y) * 2. / len(y)
@@ -58,7 +61,7 @@ class LinearRegression:
 
         return self
 
-    def fit_sgd(self, X_train, y_train, n_iters=2, t0=5, t1=50):
+    def fit_sgd(self, X_train, y_train, n_iters=50, t0=5, t1=50):
         """根据训练数据集X_train, y_train, 使用梯度下降法训练Linear Regression模型"""
         assert X_train.shape[0] == y_train.shape[0], \
             "the size of X_train must be equal to the size of y_train"
@@ -81,7 +84,7 @@ class LinearRegression:
         #
         #     return theta
 
-        def sgd(X_b, y, initial_theta, n_iters=2, t0=5, t1=50):
+        def sgd(X_b, y, initial_theta, n_iters=50, t0=5, t1=50):
 
             def learning_rate(t):
                 return t0 / (t + t1)
