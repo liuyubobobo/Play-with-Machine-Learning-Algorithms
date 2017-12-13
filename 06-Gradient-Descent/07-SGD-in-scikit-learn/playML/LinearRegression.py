@@ -65,26 +65,12 @@ class LinearRegression:
         """根据训练数据集X_train, y_train, 使用梯度下降法训练Linear Regression模型"""
         assert X_train.shape[0] == y_train.shape[0], \
             "the size of X_train must be equal to the size of y_train"
+        assert n_iters >= 1
 
         def dJ_sgd(theta, X_b_i, y_i):
             return X_b_i * (X_b_i.dot(theta) - y_i) * 2.
 
-        # def sgd(X_b, y, initial_theta, n_iters, t0=5, t1=50):
-        #
-        #     def learning_rate(t):
-        #         return t0 / (t + t1)
-        #
-        #     theta = initial_theta
-        #     m = len(X_b)
-        #
-        #     for cur_iter in range(n_iters):
-        #         rand_i = np.random.randint(m)
-        #         gradient = dJ_sgd(theta, X_b[rand_i], y[rand_i])
-        #         theta = theta - learning_rate(cur_iter) * gradient
-        #
-        #     return theta
-
-        def sgd(X_b, y, initial_theta, n_iters=50, t0=5, t1=50):
+        def sgd(X_b, y, initial_theta, n_iters=5, t0=5, t1=50):
 
             def learning_rate(t):
                 return t0 / (t + t1)
