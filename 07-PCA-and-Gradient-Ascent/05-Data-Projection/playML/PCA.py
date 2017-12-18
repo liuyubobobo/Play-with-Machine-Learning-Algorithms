@@ -4,7 +4,7 @@ import numpy as np
 class PCA:
 
     def __init__(self, n_components):
-        """初始化kNN分类器"""
+        """初始化PCA"""
         assert n_components >= 1, "n_components must be valid"
         self.n_components = n_components
         self.components_ = None
