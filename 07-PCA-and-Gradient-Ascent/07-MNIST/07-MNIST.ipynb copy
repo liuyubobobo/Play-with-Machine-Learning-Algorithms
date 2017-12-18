@@ -9,7 +9,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 17,
    "metadata": {
     "collapsed": true
    },
@@ -23,7 +23,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 18,
    "metadata": {},
    "outputs": [
     {
@@ -41,7 +41,7 @@
        " 'target': array([ 0.,  0.,  0., ...,  9.,  9.,  9.])}"
       ]
      },
-     "execution_count": 2,
+     "execution_count": 18,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -52,7 +52,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 19,
    "metadata": {
     "collapsed": true
    },
@@ -67,7 +67,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 20,
    "metadata": {},
    "outputs": [
     {
@@ -76,7 +76,7 @@
        "(60000, 784)"
       ]
      },
-     "execution_count": 4,
+     "execution_count": 20,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -87,7 +87,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 21,
    "metadata": {},
    "outputs": [
     {
@@ -96,7 +96,7 @@
        "(60000,)"
       ]
      },
-     "execution_count": 5,
+     "execution_count": 21,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -107,7 +107,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 22,
    "metadata": {},
    "outputs": [
     {
@@ -116,7 +116,7 @@
        "(10000, 784)"
       ]
      },
-     "execution_count": 6,
+     "execution_count": 22,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -127,7 +127,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 23,
    "metadata": {},
    "outputs": [
     {
@@ -136,7 +136,7 @@
        "(10000,)"
       ]
      },
-     "execution_count": 7,
+     "execution_count": 23,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -155,34 +155,17 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "CPU times: user 57.6 s, sys: 681 ms, total: 58.3 s\n",
-      "Wall time: 59.4 s\n"
-     ]
-    },
-    {
-     "data": {
-      "text/plain": [
-       "KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',\n",
-       "           metric_params=None, n_jobs=1, n_neighbors=5, p=2,\n",
-       "           weights='uniform')"
-      ]
-     },
-     "execution_count": 8,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
    "source": [
-    "from sklearn.neighbors import KNeighborsClassifier\n",
+    "from sklearn.preprocessing import StandardScaler\n",
     "\n",
-    "knn_clf = KNeighborsClassifier()\n",
-    "%time knn_clf.fit(X_train, y_train)"
+    "standardScaler = StandardScaler()\n",
+    "standardScaler.fit(X_train)\n",
+    "X_train_standard = standardScaler.transform(X_train)\n",
+    "X_test_standard = standardScaler.transform(X_test)"
    ]
   },
   {
@@ -194,14 +177,16 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "CPU times: user 14min 20s, sys: 4.3 s, total: 14min 24s\n",
-      "Wall time: 14min 29s\n"
+      "CPU times: user 1min 3s, sys: 803 ms, total: 1min 3s\n",
+      "Wall time: 1min 4s\n"
      ]
     },
     {
      "data": {
       "text/plain": [
-       "0.96879999999999999"
+       "KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',\n",
+       "           metric_params=None, n_jobs=1, n_neighbors=5, p=2,\n",
+       "           weights='uniform')"
       ]
      },
      "execution_count": 9,
@@ -210,7 +195,38 @@
     }
    ],
    "source": [
-    "%time knn_clf.score(X_test, y_test)"
+    "from sklearn.neighbors import KNeighborsClassifier\n",
+    "\n",
+    "knn_clf = KNeighborsClassifier()\n",
+    "%time knn_clf.fit(X_train_standard, y_train)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "CPU times: user 13min 35s, sys: 15.1 s, total: 13min 50s\n",
+      "Wall time: 14min 29s\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "0.94430000000000003"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "%time knn_clf.score(X_test_standard, y_test)"
    ]
   },
   {
@@ -222,7 +238,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 11,
    "metadata": {
     "collapsed": true
    },
@@ -233,7 +249,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 12,
    "metadata": {
     "collapsed": true
    },
@@ -247,7 +263,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": 13,
    "metadata": {},
    "outputs": [
     {
@@ -256,7 +272,7 @@
        "(60000, 87)"
       ]
      },
-     "execution_count": 12,
+     "execution_count": 13,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -267,15 +283,29 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
+   "execution_count": 14,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "standardScaler = StandardScaler()\n",
+    "standardScaler.fit(X_train_reduction)\n",
+    "X_train_standard = standardScaler.transform(X_train_reduction)\n",
+    "X_test_standard = standardScaler.transform(X_test_reduction)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "CPU times: user 588 ms, sys: 5.23 ms, total: 593 ms\n",
-      "Wall time: 593 ms\n"
+      "CPU times: user 682 ms, sys: 11.8 ms, total: 694 ms\n",
+      "Wall time: 700 ms\n"
      ]
     },
     {
@@ -286,42 +316,42 @@
        "           weights='uniform')"
       ]
      },
-     "execution_count": 13,
+     "execution_count": 15,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
     "knn_clf = KNeighborsClassifier()\n",
-    "%time knn_clf.fit(X_train_reduction, y_train)"
+    "%time knn_clf.fit(X_train_standard, y_train)"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": 16,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "CPU times: user 1min 55s, sys: 346 ms, total: 1min 56s\n",
-      "Wall time: 1min 56s\n"
+      "CPU times: user 3min 51s, sys: 2.4 s, total: 3min 54s\n",
+      "Wall time: 3min 59s\n"
      ]
     },
     {
      "data": {
       "text/plain": [
-       "0.9728"
+       "0.94530000000000003"
       ]
      },
-     "execution_count": 14,
+     "execution_count": 16,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "%time knn_clf.score(X_test_reduction, y_test)"
+    "%time knn_clf.score(X_test_standard, y_test)"
    ]
   },
   {
