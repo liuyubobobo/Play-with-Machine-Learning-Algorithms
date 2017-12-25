@@ -70,3 +70,13 @@
 | 5-8 实现多元线性回归 | [notebook](05-Linear-Regression/08-Our-Linear-Regression/08-Our-Linear-Regression.ipynb) | [playML](05-Linear-Regression/08-Our-Linear-Regression/playML/) |
 | 5-9 使用scikit-learn解决回归问题 | [notebook](05-Linear-Regression/09-Regression-in-scikit-learn/09-Regression-in-scikit-learn.ipynb) | [playML](05-Linear-Regression/09-Regression-in-scikit-learn/playML/) |
 | 5-10 线性回归的可解释性和更多思考 | [notebook](05-Linear-Regression/10-More-about-Linear-Regression/10-More-about-Linear-Regression.ipynb) | - |
+| **第六章 梯度下降法** | [章节文件夹](06-Gradient-Descent/) | - |
+| 6-1 什么是梯度下降法 | - | - |
+| 6-2 模拟实现梯度下降法 | [notebook](06-Gradient-Descent/02-Gradient-Descent-Simulations/02-Gradient-Descent-Simulations.ipynb) | - |
+| 6-3 线性回归中的梯度下降法 | - | - |
+| 6-4 实现线性回归中的梯度下降法 | [notebook](06-Gradient-Descent/04-Implement-Gradient-Descent-in-Linear-Regression/04-Implement-Gradient-Descent-in-Linear-Regression.ipynb) | [playML](06-Gradient-Descent/04-Implement-Gradient-Descent-in-Linear-Regression/playML/) |
+| 6-5 梯度下降法的向量化和数据标准化 | [notebook](06-Gradient-Descent/05-Vectorize-Gradient-Descent/05-Vectorize-Gradient-Descent.ipynb) | [playML](06-Gradient-Descent/05-Vectorize-Gradient-Descent/playML/) |
+| 6-6 随机梯度下降法 | [notebook](06-Gradient-Descent/06-Stochastic-Gradient-Descent/06-Stochastic-Gradient-Descent.ipynb) | - |
+| 6-7 scikit-learn中的随机梯度下降法 | [notebook](06-Gradient-Descent/07-SGD-in-scikit-learn/07-SGD-in-scikit-learn.ipynb) | [playML](06-Gradient-Descent/07-SGD-in-scikit-learn/playML/) |
+| 6-8 如何确定梯度计算的准确性？调试梯度下降法 | [notebook](06-Gradient-Descent/08-Debug-Gradient/08-Debug-Gradient.ipynb) | - |
+| 6-9 有关梯度下降法的更多深入讨论 | - | - |
