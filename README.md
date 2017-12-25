@@ -80,6 +80,8 @@
 | 6-7 scikit-learn中的随机梯度下降法 | [notebook](06-Gradient-Descent/07-SGD-in-scikit-learn/07-SGD-in-scikit-learn.ipynb) | [playML](06-Gradient-Descent/07-SGD-in-scikit-learn/playML/) |
 | 6-8 如何确定梯度计算的准确性？调试梯度下降法 | [notebook](06-Gradient-Descent/08-Debug-Gradient/08-Debug-Gradient.ipynb) | - |
 | 6-9 有关梯度下降法的更多深入讨论 | - | - |
+| 补充代码1: 实现小批量梯度下降法 | [整理中] | [敬请期待] |
+| 补充代码2: 三种梯度下降法的可视化比较 | [整理中] | [敬请期待] |
 | **第七章 PCA与梯度上升法** | [章节文件夹](07-PCA-and-Gradient-Ascent/) | - |
 | 7-1 什么是PCA | - | - |
 | 7-2 使用梯度上升法求解PCA问题 | - | - |
@@ -90,4 +92,17 @@
 | 7-7 试手MNIST数据集 | [notebook](07-PCA-and-Gradient-Ascent/07-MNIST/07-MNIST.ipynb) | - |
 | 7-8 使用PCA对数据进行降噪 | [notebook](07-PCA-and-Gradient-Ascent/08-PCA-for-Noise-Reduction/08-PCA-for-Noise-Reduction.ipynb) | - |
 | 7-9 人脸识别与特征脸 | [notebook](07-PCA-and-Gradient-Ascent/09-Eigenface/09-Eigenface.ipynb) | - |
+| **第八章 多项式回归与模型泛化** | [章节文件夹](08-Polynomial-Regression-and-Model-Generalization/) | - |
+| 8-1 什么是多项式回归 | [notebook](08-Polynomial-Regression-and-Model-Generalization/01-What-is-Polynomial-Regression/01-What-is-Polynomial-Regression.ipynb) | - |
+| 8-2 scikit-learn中的多项式回归与Pipeline | [notebook](08-Polynomial-Regression-and-Model-Generalization/02-Polynomial-Regression-in-scikit-learn/02-Polynomial-Regression-in-scikit-learn.ipynb) | - |
+| 8-3 过拟合与欠拟合 | [notebook](08-Polynomial-Regression-and-Model-Generalization/03-Overfitting-and-Underfitting/03-Overfitting-and-Underfitting.ipynb) | - |
+| 8-4 为什么要有训练数据集与测试数据集 | [notebook](08-Polynomial-Regression-and-Model-Generalization/04-Why-Train-Test-Split/04-Why-Train-Test-Split.ipynb) | - |
+| 8-5 学习曲线 | [notebook](08-Polynomial-Regression-and-Model-Generalization/05-Learning-Curve/05-Learning-Curve.ipynb) | - |
+| 8-6 验证数据集与交叉验证 | [notebook](08-Polynomial-Regression-and-Model-Generalization/06-Validation-and-Cross-Validation/06-Validation-and-Cross-Validation.ipynb) | - |
+| 8-7 偏差方差平衡 | - | - |
+| 8-8 模型泛化与岭回归 | [notebook](08-Polynomial-Regression-and-Model-Generalization/08-Model-Regularization-and-Ridge-Regression/08-Model-Regularization-and-Ridge-Regression.ipynb) | - |
+| 8-9 LASSO | [notebook](08-Polynomial-Regression-and-Model-Generalization/09-LASSO-Regression/09-LASSO-Regression.ipynb) | - |
+| 8-10 L1, L2和弹性网络 | - | - |
+| 补充代码1: scikit-learn中的Elastic Net | [整理中] | [敬请期待] |
 
+该课程正在更新中，敬请期待，谢谢：）
