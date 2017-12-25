@@ -46,3 +46,13 @@
 | 3-12 数据加载和简单的数据探索 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/12-Loading-Data-and-Simple-Data-Exploring/12-Loading-Data-and-Simple-Data-Exploring.ipynb) | - |
 | 补充代码1: Numpy中的结构数组 | [整理中] | [敬请期待] |
 | 补充代码2: 简单的MNIST数据集数据探索 | [整理中] | [敬请期待] |
+| **第四章 最基础的分类算法-k近邻算法 kNN** | [章节文件夹](04-kNN/) | - |
+| 4-1 k近邻算法基础 | [notebook](04-kNN/01-kNN-Basics/01-kNN-Basics.ipynb) | - |
+| 4-2 scikit-learn中的机器学习算法封装 | [notebook](04-kNN/02-kNN-in-scikit-learn/02-kNN-in-scikit-learn.ipynb) | [script](04-kNN/02-kNN-in-scikit-learn/) |
+| 4-3 训练数据集，测试数据集 | [notebook](04-kNN/03-Test-Our-Algorithm/03-Test-Our-Algorithm.ipynb) | [playML](04-kNN/03-Test-Our-Algorithm/playML/) |
+| 4-4 分类准确度 | [notebook](04-kNN/04-Accuracy-Score/04-Accuracy-Score.ipynb) | [playML](04-kNN/04-Accuracy-Score/playML/) |
+| 4-5 超参数 | [notebook](04-kNN/05-Hyper-Parameters/05-Hyper-Parameters.ipynb) | - |
+| 4-6 网格搜索与k近邻算法中更多超参数 | [notebook](04-kNN/06-More-Hyper-Parameters-in-kNN-and-Grid-Search/06-More-Hyper-Parameters-in-kNN-and-Grid-Search.ipynb) | - |
+| 4-7 数据归一化 | [notebook](04-kNN/07-Feature-Scaling/07-Feature-Scaling.ipynb) | - | 
+| 4-8 scikit-learn中的Scaler | [notebook](04-kNN/08-Scaler-in-Scikit-Learn/08-Scaler-in-Scikit-Learn.ipynb) | [playML](04-kNN/08-Scaler-in-Scikit-Learn/playML/) |
+| 4-9 更多有关k近邻算法的思考 | - | - |
