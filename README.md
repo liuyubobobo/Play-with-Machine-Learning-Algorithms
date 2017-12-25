@@ -56,3 +56,17 @@
 | 4-7 数据归一化 | [notebook](04-kNN/07-Feature-Scaling/07-Feature-Scaling.ipynb) | - | 
 | 4-8 scikit-learn中的Scaler | [notebook](04-kNN/08-Scaler-in-Scikit-Learn/08-Scaler-in-Scikit-Learn.ipynb) | [playML](04-kNN/08-Scaler-in-Scikit-Learn/playML/) |
 | 4-9 更多有关k近邻算法的思考 | - | - |
+| 补充代码1: scikit-learn中的其他scaler | - | - |
+| 补充代码2: 网格搜索kNN中的不同距离定义 | - | - |
+| 补充代码3: 使用kNN算法处理MNIST手写识别数据集 | - | - |
+| **第五章 线性回归法** | [章节文件夹](05-Linear-Regression/) | |
+| 5-1 简单线性回归 | - | - |
+| 5-2 最小二乘法 | - | - |
+| 5-3 简单线性回归的实现 | [notebook](05-Linear-Regression/03-Simple-Linear-Regression-Implementation/03-Simple-Linear-Regression-Implementation.ipynb) | [playML](05-Linear-Regression/03-Simple-Linear-Regression-Implementation/playML/) |
+| 5-4 向量化 | [notebook](05-Linear-Regression/04-Vectorization/04-Vectorization.ipynb) | [playML](05-Linear-Regression/04-Vectorization/playML/) |
+| 5-5 衡量线性回归法的指标：MSE，RMSE和MAE | [notebook](05-Linear-Regression/05-Regression-Metrics-MSE-vs-MAE/05-Regression-Metrics-MSE-vs-MAE.ipynb) | [playML](05-Linear-Regression/05-Regression-Metrics-MSE-vs-MAE/playML/) |
+| 5-6 最好的衡量线性回归法的指标：R Squared | [notebook](05-Linear-Regression/06-R-Squared/06-R-Squared.ipynb) | [playML](05-Linear-Regression/06-R-Squared/playML/) |
+| 5-7 多元线性回归和正规方程解 | - | - |
+| 5-8 实现多元线性回归 | [notebook](05-Linear-Regression/08-Our-Linear-Regression/08-Our-Linear-Regression.ipynb) | [playML](05-Linear-Regression/08-Our-Linear-Regression/playML/) |
+| 5-9 使用scikit-learn解决回归问题 | [notebook](05-Linear-Regression/09-Regression-in-scikit-learn/09-Regression-in-scikit-learn.ipynb) | [playML](05-Linear-Regression/09-Regression-in-scikit-learn/playML/) |
+| 5-10 线性回归的可解释性和更多思考 | [notebook](05-Linear-Regression/10-More-about-Linear-Regression/10-More-about-Linear-Regression.ipynb) | - |
