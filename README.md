@@ -25,9 +25,24 @@
 | 1-2 课程涵盖的内容和理念 | - | - |
 | 1-3 课程所使用的主要技术栈 | - | - |
 | **第二章 机器学习基础** | [章节文件夹](02-Machine-Learning-Basics/)  | - |
-| 1-1 机器学习世界的数据 | - | - |
-| 1-2 机器学习的主要任务 | - | - |
-| 1-3 监督学习，非监督学习，半监督学习和增强学习 | - | - |
-| 1-4 批量学习，在线学习，参数学习和非参数学习 | - | - |
-| 1-5 和机器学习相关的“哲学”思考 | - | - |
-| 1-6 课程使用环境搭建 | [notebook](02-Machine-Learning-Basics/06-Development-Enviroment-Setup/06-Hello-Machine-Learning.ipynb) | [script](02-Machine-Learning-Basics/06-Development-Enviroment-Setup/myscript/main.py) |
+| 2-1 机器学习世界的数据 | - | - |
+| 2-2 机器学习的主要任务 | - | - |
+| 2-3 监督学习，非监督学习，半监督学习和增强学习 | - | - |
+| 2-4 批量学习，在线学习，参数学习和非参数学习 | - | - |
+| 2-5 和机器学习相关的“哲学”思考 | - | - |
+| 2-6 课程使用环境搭建 | [notebook](02-Machine-Learning-Basics/06-Development-Enviroment-Setup/06-Hello-Machine-Learning.ipynb) | [script](02-Machine-Learning-Basics/06-Development-Enviroment-Setup/myscript/main.py) |
+| **第三章 Jupyter Notebook, Numpy和Matplotlib** | [章节文件夹](03-Jupyter-Notebook-Numpy-and-Matplotlib/) | - |
+| 3-1 Jupyter Notebook基础 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/01-Jupyter-Notebook-Basics/01-Jupiter-Notebook-Basics.ipynb) | - |
+| 3-2 Jupyter Notebook中的魔法命令 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/02-Magic-Commands/02-Magic-Commands.ipynb) | - |
+| 3-3 Numpy数据基础 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/03-Numpy-Array-Basics/03-Numpy-Array-Basics.ipynb) | - |
+| 3-4 创建Numpy数组(和矩阵) | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/04-Create-Numpy-Array/04-Create-Numpy-Array.ipynb) | - |
+| 3-5 Numpy数组(和矩阵)的基本操作 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/05-Numpy-Array-Basic-Operations/05-Numpy-Array-Basic-Operations.ipynb) | - |
+| 3-6 Numpy数组(和矩阵)的合并与分割 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/06-Concatenate-and-Split/06-Concatenate-and-Split.ipynb) | - |
+| 3-7 Numpy中的矩阵运算 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/07-Computation-on-Numpy-Array/07-Computation-on-Numpy-Array.ipynb) | - |
+| 3-8 Numpy中的聚合运算 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/08-Aggregation-Operator-in-Numpy/08-Aggregation-Operator-in-Numpy.ipynb) | - |
+| 3-9 Numpy中的arg运算 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/09-Arg-in-Numpy/09-Arg-in-Numpy.ipynb) | - |
+| 3-10 Numpy中的比较和Fancy Indexing | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/10-Comparison-and-Masks/10-Comparison-and-Masks.ipynb) | - |
+| 3-11 Matplotlib数据可视化基础 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/11-Matplotlib-Basics/11-Matplotlib-Basics.ipynb) | - |
+| 3-12 数据加载和简单的数据探索 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/12-Loading-Data-and-Simple-Data-Exploring/12-Loading-Data-and-Simple-Data-Exploring.ipynb) | - |
+| 补充代码1: Numpy中的结构数组 | [整理中] | [敬请期待] |
+| 补充代码2: 简单的MNIST数据集数据探索 | [整理中] | [敬请期待] |
