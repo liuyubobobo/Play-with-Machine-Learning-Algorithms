@@ -80,3 +80,14 @@
 | 6-7 scikit-learn中的随机梯度下降法 | [notebook](06-Gradient-Descent/07-SGD-in-scikit-learn/07-SGD-in-scikit-learn.ipynb) | [playML](06-Gradient-Descent/07-SGD-in-scikit-learn/playML/) |
 | 6-8 如何确定梯度计算的准确性？调试梯度下降法 | [notebook](06-Gradient-Descent/08-Debug-Gradient/08-Debug-Gradient.ipynb) | - |
 | 6-9 有关梯度下降法的更多深入讨论 | - | - |
+| **第七章 PCA与梯度上升法** | [章节文件夹](07-PCA-and-Gradient-Ascent/) | - |
+| 7-1 什么是PCA | - | - |
+| 7-2 使用梯度上升法求解PCA问题 | - | - |
+| 7-3 求数据的主成分PCA | [notebook](07-PCA-and-Gradient-Ascent/03-Implement-PCA-in-BGA/03-Implement-PCA-in-BGA.ipynb) | - |
+| 7-4 求数据的前n个主成分 | [notebook](07-PCA-and-Gradient-Ascent/04-Getting-First-N-Components/04-Getting-First-N-Components.ipynb) | - |
+| 7-5 高维数据映射为低维数据 | [notebook](07-PCA-and-Gradient-Ascent/05-Data-Projection/05-Data-Projection.ipynb) | [playML](07-PCA-and-Gradient-Ascent/05-Data-Projection/playML/) |
+| 7-6 scikit-learn中的PCA | [notebook](07-PCA-and-Gradient-Ascent/06-PCA-in-scikit-learn/06-PCA-in-scikit-learn.ipynb) | - |
+| 7-7 试手MNIST数据集 | [notebook](07-PCA-and-Gradient-Ascent/07-MNIST/07-MNIST.ipynb) | - |
+| 7-8 使用PCA对数据进行降噪 | [notebook](07-PCA-and-Gradient-Ascent/08-PCA-for-Noise-Reduction/08-PCA-for-Noise-Reduction.ipynb) | - |
+| 7-9 人脸识别与特征脸 | [notebook](07-PCA-and-Gradient-Ascent/09-Eigenface/09-Eigenface.ipynb) | - |
+
