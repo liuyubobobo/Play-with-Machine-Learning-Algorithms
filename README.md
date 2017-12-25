@@ -30,4 +30,4 @@
 | 1-3 监督学习，非监督学习，半监督学习和增强学习 | - | - |
 | 1-4 批量学习，在线学习，参数学习和非参数学习 | - | - |
 | 1-5 和机器学习相关的“哲学”思考 | - | - |
-| 1-6 课程使用环境搭建 | [notebook](02-Machine-Learning-Basics/06-Hello-Machine-Learning.ipynb) | [script](02-Machine-Learning-Basics/myscript/main.py) |
+| 1-6 课程使用环境搭建 | [notebook](02-Machine-Learning-Basics/06-Development-Enviroment-Setup/06-Hello-Machine-Learning.ipynb) | [script](02-Machine-Learning-Basics/06-Development-Enviroment-Setup/myscript/main.py) |
