@@ -103,6 +103,8 @@
 | 8-8 模型泛化与岭回归 | [notebook](08-Polynomial-Regression-and-Model-Generalization/08-Model-Regularization-and-Ridge-Regression/08-Model-Regularization-and-Ridge-Regression.ipynb) | - |
 | 8-9 LASSO | [notebook](08-Polynomial-Regression-and-Model-Generalization/09-LASSO-Regression/09-LASSO-Regression.ipynb) | - |
 | 8-10 L1, L2和弹性网络 | - | - |
-| 补充代码1: scikit-learn中的Elastic Net | [整理中] | [敬请期待] |
+| 补充代码1: scikit-learn中的学习曲线 | [整理中] | [敬请期待] |
+| 补充代码2: 更多scikit-learn中的交叉验证 | [整理中] | [敬请期待] |
+| 补充代码3: scikit-learn中的Elastic Net | [整理中] | [敬请期待] |
 
 该课程正在更新中，敬请期待，谢谢：）
