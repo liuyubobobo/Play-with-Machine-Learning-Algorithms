@@ -107,7 +107,7 @@
 | 补充代码2: 更多scikit-learn中的交叉验证 | [整理中] | [敬请期待] |
 | 补充代码3: scikit-learn中的Elastic Net | [整理中] | [敬请期待] |
 | **第九章 逻辑回归** | [章节文件夹](09-Logistic-Regression/) | - |
-| 9-1 什么是逻辑回归 | [notebook](09-Logistic-Regression/01-What-is-Logistic-Regression、01-What-is-Logistic-Regression.ipynb) | - |
+| 9-1 什么是逻辑回归 | [notebook](09-Logistic-Regression/01-What-is-Logistic-Regression/01-What-is-Logistic-Regression.ipynb) | - |
 | 9-2 逻辑回归的损失函数 | - | - |
 | 9-3 逻辑回归损失函数的梯度 | - | - |
 | 9-4 实现逻辑回归算法 | [notebook](09-Logistic-Regression/04-Implement-Logistic-Regression/04-Implement-Logistic-Regression.ipynb) | [playML](09-Logistic-Regression/04-Implement-Logistic-Regression/playML/) |
