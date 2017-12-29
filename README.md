@@ -106,5 +106,26 @@
 | 补充代码1: scikit-learn中的学习曲线 | [整理中] | [敬请期待] |
 | 补充代码2: 更多scikit-learn中的交叉验证 | [整理中] | [敬请期待] |
 | 补充代码3: scikit-learn中的Elastic Net | [整理中] | [敬请期待] |
+| **第九章 逻辑回归** | [章节文件夹](09-Logistic-Regression/) | - |
+| 9-1 什么是逻辑回归 | [notebook](09-Logistic-Regression/01-What-is-Logistic-Regression、01-What-is-Logistic-Regression.ipynb) | - |
+| 9-2 逻辑回归的损失函数 | - | - |
+| 9-3 逻辑回归损失函数的梯度 | - | - |
+| 9-4 实现逻辑回归算法 | [notebook](09-Logistic-Regression/04-Implement-Logistic-Regression/04-Implement-Logistic-Regression.ipynb) | [playML](09-Logistic-Regression/04-Implement-Logistic-Regression/playML/) |
+| 9-5 决策边界 | [notebook](09-Logistic-Regression/05-Decision-Boundary/05-Decision-Boundary.ipynb) | [playML](09-Logistic-Regression/05-Decision-Boundary/playML/) |
+| 9-6 在逻辑回归中使用多项式特征 | [notebook](09-Logistic-Regression/06-Polynomial-Features-in-Logistic-Regression/06-Polynomial-Features-in-Logistic-Regression.ipynb) | [playML](09-Logistic-Regression/06-Polynomial-Features-in-Logistic-Regression/playML/) |
+| 9-7 scikit-learn中的逻辑回归 | [notebook](09-Logistic-Regression/07-Logistic-Regression-in-scikit-learn/07-Logistic-Regression-in-scikit-learn.ipynb) | - |
+| 9-8 OvR与OvO | [notebook](09-Logistic-Regression/08-OVR-and-OVO/08-OVR-and-OVO.ipynb) | - |
+| 补充代码1: scikit-learn中的LogisticRegressionCV | [notebook](09-Logistic-Regression/Optional-01-LogisticRegressionCV/Optional-01-LogisticRegressionCV.ipynb) | - |
+| 补充代码2: scikit-learn中随机梯度下降法训练逻辑回归 | [整理中] | [敬请期待] |
+| **第十章 分类算法的评价** | [正在录制中] | [敬请期待] |
+| | | |
+| **第十一章 支撑向量机SVM** | [正在录制中] | [敬请期待] |
+| | | |
+| **第十二章 决策树** | [正在录制中] | [敬请期待] |
+| | | |
+| **第十三章 集成学习和随机森林** | [正在录制中] | [敬请期待] |
+| | | |
+| **第十四章 更多机器学习算法** | [正在录制中] | [敬请期待] |
+| | | |
 
 该课程正在更新中，敬请期待，谢谢：）
