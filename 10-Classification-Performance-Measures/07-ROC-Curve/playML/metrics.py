@@ -40,7 +40,7 @@ def r2_score(y_true, y_predict):
 
 def TN(y_true, y_predict):
     assert len(y_true) == len(y_predict)
-    return np.sum((y_true) == 0 & (y_predict == 0))
+    return np.sum((y_true == 0) & (y_predict == 0))
 
 
 def FP(y_true, y_predict):
