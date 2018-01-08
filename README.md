@@ -118,14 +118,16 @@
 | 补充代码1: scikit-learn中的LogisticRegressionCV | [notebook](09-Logistic-Regression/Optional-01-LogisticRegressionCV/Optional-01-LogisticRegressionCV.ipynb) | - |
 | 补充代码2: scikit-learn中随机梯度下降法训练逻辑回归 | [整理中] | [敬请期待] |
 | **第十章 分类算法的评价** | [章节文件夹](10-Classification-Performance-Measures/) | - |
-| 10-1 准确度的陷阱和混淆矩阵 | [notebook](10-Classification-Performance-Measures/01-The-Problem-of-Accuracy-Score/01-The-Problem-of-Accuracy-Score.ipynb) | - |
-| 10-2 精准率和召回率 | [notebook](10-Classification-Performance-Measures/02-Precision-and-Recall/02-Precision-and-Recall.ipynb) | - |
+| 10-1 准确度的陷阱和混淆矩阵 | - | - |
+| 10-2 精准率和召回率 | - | - |
 | 10-3 实现混淆矩阵，精准率和召回率 | [notebook](10-Classification-Performance-Measures/03-Implement-Confusion-Matrix-Precision-and-Recall/03-Implement-Confusion-Matrix-Precision-and-Recall.ipynb) | - |
 | 10-4 F1 Score | [notebook](10-Classification-Performance-Measures/04-F1-Score/04-F1-Score.ipynb) | - |
 | 10-5 精准率和召回率的平衡 | [notebook](10-Classification-Performance-Measures/05-Precision-Recall-Tradeoff/05-Precision-Recall-Tradeoff.ipynb) | - |
 | 10-6 精准率-召回率曲线 | [notebook](10-Classification-Performance-Measures/06-Precision-Recall-Curve/06-Precision-Recall-Curve.ipynb) | - |
 | 10-7 ROC曲线 | [notebook](10-Classification-Performance-Measures/07-ROC-Curve/07-ROC-Curve.ipynb) | [playML](10-Classification-Performance-Measures/07-ROC-Curve/playML/) |
 | 10-8 多分类问题中的混淆矩阵 | [notebook](10-Classification-Performance-Measures/08-Confusion-Matrix-in-Multiclass-Classification/08-Confusion-Matrix-in-Multiclass-Classification.ipynb) | - |
+| 补充代码1: Pricision-Recall曲线的面积 | [整理中] | [敬请期待] |
+| 补充代码2: 多分类问题下的各项指标 | [整理中] | [敬请期待] |
 | **第十一章 支撑向量机SVM** | [正在录制中] | [敬请期待] |
 | | | |
 | **第十二章 决策树** | [正在录制中] | [敬请期待] |
