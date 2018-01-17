@@ -134,7 +134,7 @@
 | 11-2 SVM背后的最优化问题 | - | - | 
 | 11-3 Soft Margin SVM | - | - |
 | 11-4 scikit-learn中的SVM | [notebook](11-SVM/04-SVM-in-scikit-learn/04-SVM-in-scikit-learn.ipynb) | - |
-| 11-5 SVM中使用多项式特征 | [notebook](11-SVM/05-Polynomial-Features-in-SVM-and-Kernel-Function.ipynb) | - |
+| 11-5 SVM中使用多项式特征 | [notebook](11-SVM/05-Polynomial-Features-in-SVM-and-Kernel-Function/05-Polynomial-Features-in-SVM-and-Kernel-Function.ipynb) | - |
 | 11-6 到底什么是核函数(Kernel) | - | - |
 | 11-7 什么是RBF核 | [notebook](11-SVM/07-What-is-RBF-Kernel/07-What-is-RBF-Kernel.ipynb) | - |
 | 11-8 scikit-learn中使用RBF核 | [notebook](11-SVM/08-RBF-Kernel-in-scikit-learn/08-RBF-Kernel-in-scikit-learn.ipynb) | - |
