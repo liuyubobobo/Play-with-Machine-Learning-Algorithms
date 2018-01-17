@@ -129,8 +129,18 @@
 | 10-8 多分类问题中的混淆矩阵 | [notebook](10-Classification-Performance-Measures/08-Confusion-Matrix-in-Multiclass-Classification/08-Confusion-Matrix-in-Multiclass-Classification.ipynb) | - |
 | 补充代码1: Pricision-Recall曲线的面积 | [整理中] | [敬请期待] |
 | 补充代码2: 多分类问题下的各项指标 | [整理中] | [敬请期待] |
-| **第十一章 支撑向量机SVM** | [正在录制中] | [敬请期待] |
-| | | |
+| **第十一章 支撑向量机SVM** | [章节文件夹](11-SVM/) | - |
+| 11-1 什么是SVM | - | - |
+| 11-2 SVM背后的最优化问题 | - | - | 
+| 11-3 Soft Margin SVM | - | - |
+| 11-4 scikit-learn中的SVM | [notebook](11-SVM/04-SVM-in-scikit-learn/04-SVM-in-scikit-learn.ipynb) | - |
+| 11-5 SVM中使用多项式特征 | [notebook](11-SVM/05-Polynomial-Features-in-SVM-and-Kernel-Function.ipynb) | - |
+| 11-6 到底什么是核函数(Kernel) | - | - |
+| 11-7 什么是RBF核 | [notebook](11-SVM/07-What-is-RBF-Kernel/07-What-is-RBF-Kernel.ipynb) | - |
+| 11-8 scikit-learn中使用RBF核 | [notebook](11-SVM/08-RBF-Kernel-in-scikit-learn/08-RBF-Kernel-in-scikit-learn.ipynb) | - |
+| 11-9 SVM思想解决回归问题 | [notebook](11-SVM/09-SVM-Regressor/09-SVM-Regressor.ipynb) | - |
+| 补充代码1: SVR调参解决波士顿房价问题 | [整理中] | [敬请期待] |
+| 补充代码2: 手撕Linear SVC | [整理中] | [敬请期待] |
 | **第十二章 决策树** | [正在录制中] | [敬请期待] |
 | | | |
 | **第十三章 集成学习和随机森林** | [正在录制中] | [敬请期待] |
