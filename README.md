@@ -71,6 +71,9 @@
 | 5-8 实现多元线性回归 | [notebook](05-Linear-Regression/08-Our-Linear-Regression/08-Our-Linear-Regression.ipynb) | [playML](05-Linear-Regression/08-Our-Linear-Regression/playML/) |
 | 5-9 使用scikit-learn解决回归问题 | [notebook](05-Linear-Regression/09-Regression-in-scikit-learn/09-Regression-in-scikit-learn.ipynb) | [playML](05-Linear-Regression/09-Regression-in-scikit-learn/playML/) |
 | 5-10 线性回归的可解释性和更多思考 | [notebook](05-Linear-Regression/10-More-about-Linear-Regression/10-More-about-Linear-Regression.ipynb) | - |
+| 补充代码1: 分类变量的处理 | [整理中] | [敬请期待] |
+| 补充代码2: scikit-learn中同时处理数字变量和分类变量 | [整理中] | [敬请期待] |
+| 补充代码3: FeatureUnion的使用 | [整理中] | [敬请期待] |
 | **第六章 梯度下降法** | [章节文件夹](06-Gradient-Descent/) | - |
 | 6-1 什么是梯度下降法 | - | - |
 | 6-2 模拟实现梯度下降法 | [notebook](06-Gradient-Descent/02-Gradient-Descent-Simulations/02-Gradient-Descent-Simulations.ipynb) | - |
@@ -117,8 +120,9 @@
 | 9-6 在逻辑回归中使用多项式特征 | [notebook](09-Logistic-Regression/06-Polynomial-Features-in-Logistic-Regression/06-Polynomial-Features-in-Logistic-Regression.ipynb) | [playML](09-Logistic-Regression/06-Polynomial-Features-in-Logistic-Regression/playML/) |
 | 9-7 scikit-learn中的逻辑回归 | [notebook](09-Logistic-Regression/07-Logistic-Regression-in-scikit-learn/07-Logistic-Regression-in-scikit-learn.ipynb) | - |
 | 9-8 OvR与OvO | [notebook](09-Logistic-Regression/08-OVR-and-OVO/08-OVR-and-OVO.ipynb) | - |
-| 补充代码1: scikit-learn中的LogisticRegressionCV | [notebook](09-Logistic-Regression/Optional-01-LogisticRegressionCV/Optional-01-LogisticRegressionCV.ipynb) | - |
-| 补充代码2: scikit-learn中随机梯度下降法训练逻辑回归 | [整理中] | [敬请期待] |
+| 补充代码1: kNN的决策边界 | [notebook](09-Logistic-Regression/Optional-01-kNN-Decision-Boundary/Optional-01-kNN-Decision-Boundary.ipynb) | - |
+| 补充代码2: scikit-learn中的LogisticRegressionCV | [notebook](09-Logistic-Regression/Optional-02-LogisticRegressionCV/Optional-02-LogisticRegressionCV.ipynb) | - |
+| 补充代码3: scikit-learn中随机梯度下降法训练逻辑回归 | [整理中] | [敬请期待] |
 | **第十章 分类算法的评价** | [章节文件夹](10-Classification-Performance-Measures/) | - |
 | 10-1 准确度的陷阱和混淆矩阵 | - | - |
 | 10-2 精准率和召回率 | - | - |
@@ -143,14 +147,15 @@
 | 补充代码1: SVR调参解决波士顿房价问题 | [整理中] | [敬请期待] |
 | 补充代码2: 更多SVM核函数 | [整理中] | [敬请期待] |
 | 补充代码3: 手撕LinearSVC | [整理中] | [敬请期待] |
-| **第十二章 决策树** | [正在录制中] | [敬请期待] |
-| 12-1 什么是决策树 | [正在录制中] | [敬请期待] |
-| 12-2 信息熵 | [正在录制中] | [敬请期待] |
-| 12-3 基尼系数 | [正在录制中] | [敬请期待] |
-| 12-4 CART与决策树中的超参数 | [正在录制中] | [敬请期待] |
-| 12-5 从决策树看模型复杂度 | [正在录制中] | [敬请期待] |
-| 12-6 决策树解决回归问题 | [正在录制中] | [敬请期待] |
-| 12-7 决策树的局限性 | [正在录制中] | [敬请期待] |
+| **第十二章 决策树** | [章节文件夹](12-Decision-Tree/) | - |
+| 12-1 什么是决策树 | [notebook](12-Decision-Tree/01-What-is-Decision-Tree/01-What-is-Decision-Tree.ipynb) | - |
+| 12-2 信息熵 | [正在录制中] | - |
+| 12-3 基尼系数 | [正在录制中] | - |
+| 12-4 CART与决策树中的超参数 | [正在录制中] | - |
+| 12-5 决策树解决回归问题 | [正在录制中] | - |
+| 12-6 从决策树看模型复杂度 | [正在录制中] | - |
+| 12-7 决策树的局限性 | [正在录制中] | - |
+| 补充代码1: 手撕决策树 | [整理中] | [敬请期待] |
 | **第十三章 集成学习和随机森林** | [正在录制中] | [敬请期待] |
 | | | |
 | **第十四章 更多机器学习算法** | [正在录制中] | [敬请期待] |
