@@ -89,14 +89,18 @@
 | **第七章 PCA与梯度上升法** | [章节文件夹](07-PCA-and-Gradient-Ascent/) | - |
 | 7-1 什么是PCA | - | - |
 | 7-2 使用梯度上升法求解PCA问题 | - | - |
-| 7-3 求数据的主成分PCA | [notebook](07-PCA-and-Gradient-Ascent/03-Implement-PCA-in-BGA/03-Implement-PCA-in-BGA.ipynb) | - |
+| 7-3 求数据的主成分 | [notebook](07-PCA-and-Gradient-Ascent/03-Implement-PCA-in-BGA/03-Implement-PCA-in-BGA.ipynb) | - |
 | 7-4 求数据的前n个主成分 | [notebook](07-PCA-and-Gradient-Ascent/04-Getting-First-N-Components/04-Getting-First-N-Components.ipynb) | - |
 | 7-5 高维数据映射为低维数据 | [notebook](07-PCA-and-Gradient-Ascent/05-Data-Projection/05-Data-Projection.ipynb) | [playML](07-PCA-and-Gradient-Ascent/05-Data-Projection/playML/) |
 | 7-6 scikit-learn中的PCA | [notebook](07-PCA-and-Gradient-Ascent/06-PCA-in-scikit-learn/06-PCA-in-scikit-learn.ipynb) | - |
 | 7-7 试手MNIST数据集 | [notebook](07-PCA-and-Gradient-Ascent/07-MNIST/07-MNIST.ipynb) | - |
 | 7-8 使用PCA对数据进行降噪 | [notebook](07-PCA-and-Gradient-Ascent/08-PCA-for-Noise-Reduction/08-PCA-for-Noise-Reduction.ipynb) | - |
 | 7-9 人脸识别与特征脸 | [notebook](07-PCA-and-Gradient-Ascent/09-Eigenface/09-Eigenface.ipynb) | - |
-| 补充代码1: 更多降维方法 | [整理中] | [敬请期待] |
+| 补充代码1: IPCA | [整理中] | [敬请期待] |
+| 补充代码2: 随机化PCA | [整理中] | [敬请期待] |
+| 补充代码3: Kernel PCA | [整理中] | [敬请期待] |
+| 补充代码4: LLE | [整理中] | [敬请期待] |
+| 补充代码5: 更多降维方法 | [整理中] | [敬请期待] |
 | **第八章 多项式回归与模型泛化** | [章节文件夹](08-Polynomial-Regression-and-Model-Generalization/) | - |
 | 8-1 什么是多项式回归 | [notebook](08-Polynomial-Regression-and-Model-Generalization/01-What-is-Polynomial-Regression/01-What-is-Polynomial-Regression.ipynb) | - |
 | 8-2 scikit-learn中的多项式回归与Pipeline | [notebook](08-Polynomial-Regression-and-Model-Generalization/02-Polynomial-Regression-in-scikit-learn/02-Polynomial-Regression-in-scikit-learn.ipynb) | - |
@@ -147,6 +151,7 @@
 | 补充代码1: SVR调参解决波士顿房价问题 | [整理中] | [敬请期待] |
 | 补充代码2: 更多SVM核函数 | [整理中] | [敬请期待] |
 | 补充代码3: 手撕LinearSVC | [整理中] | [敬请期待] |
+| 补充代码4: 在PCA中使用Kernel——Kernel PCA | [整理中] | [敬请期待] |
 | **第十二章 决策树** | [章节文件夹](12-Decision-Tree/) | - |
 | 12-1 什么是决策树 | [notebook](12-Decision-Tree/01-What-is-Decision-Tree/01-What-is-Decision-Tree.ipynb) | - |
 | 12-2 信息熵 | [notebook](12-Decision-Tree/02-Entropy/02-Entropy.ipynb) | - |
@@ -160,7 +165,15 @@
 | 补充代码3: 决策树调参解决波士顿房价问题 | [整理中] | [敬请期待] |
 | 补充代码4: 手撕决策树 | [整理中] | [敬请期待] |
 | **第十三章 集成学习和随机森林** | [正在录制中] | [敬请期待] |
-| | | |
+| 13-1 什么是集成学习 | [正在录制中] | [敬请期待] |
+| 13-2 Bagging 和 Pasting | [正在录制中] | [敬请期待] |
+| 13-3 oob (Out-of-Bag) | [正在录制中] | [敬请期待] |
+| 13-4 随机森林 | [正在录制中] | [敬请期待] |
+| 13-5 Extra-Trees | [正在录制中] | [敬请期待] |
+| 13-6 使用随机森林估计特征的重要程度 | [正在录制中] | [敬请期待] |
+| 13-7 Ada Boosting | [正在录制中] | [敬请期待] |
+| 13-8 Gradient Boosting | [正在录制中] | [敬请期待] |
+| 13-9 Stacking | [正在录制中] | [敬请期待] |
 | **第十四章 更多机器学习算法** | [正在录制中] | [敬请期待] |
 | | | |
 
