@@ -166,17 +166,17 @@
 | 补充代码4: 手撕决策树 | [整理中] | [敬请期待] |
 | **第十三章 集成学习和随机森林** | [章节文件夹](13-Ensemble-Learning-and-Random-Forest/) | - |
 | 13-1 什么是集成学习 | [notebook](13-Ensemble-Learning-and-Random-Forest/01-What-is-Ensemble-Learning/01-What-is-Ensemble-Learning.ipynb) | - |
-| 13-2 | Soft Voting Classifier | [notebook](13-Ensemble-Learning-and-Random-Forest/02-Soft-Voting-Classifier/02-Soft-Voting-Classifier.ipynb) | - |
+| 13-2 Soft Voting Classifier | [notebook](13-Ensemble-Learning-and-Random-Forest/02-Soft-Voting-Classifier/02-Soft-Voting-Classifier.ipynb) | - |
 | 13-3 Bagging 和 Pasting | [正在录制中] | - |
 | 13-4 oob (Out-of-Bag) 和关于Bagging的更多讨论 | [正在录制中] | - |
 | 13-5 随机森林和 Extra-Trees | [正在录制中] | - |
 | 13-6 Ada Boosting | [正在录制中] | - |
 | 13-7 Gradient Boosting | [正在录制中] | - |
 | 13-8 Stacking | [正在录制中] | - |
-| 补充代码1: 使用随机森林判断特征重要程度 | [整理中] | - |
+| 补充代码1: 使用随机森林判断特征重要程度 | [整理中] | [敬请期待] |
 | **第十四章 更多机器学习算法** | [正在录制中] | [敬请期待] |
-| 14-1 scikit-learn的讨论和scikit-learn的文档 | [正在录制中] | [敬请期待] |
+| 14-1 scikit-learn的讨论和scikit-learn的文档 | - | - |
 | 14-2 更多机器学习算法 | [正在录制中] | [敬请期待] |
-| 14-3 大家加油！ | [正在录制中] | [敬请期待] |
+| 14-3 大家加油！ | - | - |
 
 该课程正在更新中，敬请期待，谢谢：）
