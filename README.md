@@ -168,7 +168,7 @@
 | 13-1 什么是集成学习 | [notebook](13-Ensemble-Learning-and-Random-Forest/01-What-is-Ensemble-Learning/01-What-is-Ensemble-Learning.ipynb) | - |
 | 13-2 Soft Voting Classifier | [notebook](13-Ensemble-Learning-and-Random-Forest/02-Soft-Voting-Classifier/02-Soft-Voting-Classifier.ipynb) | - |
 | 13-3 Bagging 和 Pasting | [notebook](13-Ensemble-Learning-and-Random-Forest/03-Bagging-and-Pasting/03-Bagging-and-Pasting.ipynb) | - |
-| 13-4 oob (Out-of-Bag) 和关于Bagging的更多讨论 | [notebook](13-Ensemble-Learning-and-Random-Forest/04-OOB-and-More-about-Bagging-Classifier/04-OOB-and-More-about-Bagging-Classifier.ipynb) | - |
+| 13-4 oob (Out-of-Bag) 和关于Bagging的更多讨论 | [notebook](13-Ensemble-Learning-and-Random-Forest/04-OOB-and-More-about-Bagging-Classifier/04-OOB-and-More-About-Bagging-Classifier.ipynb) | - |
 | 13-5 随机森林和 Extra-Trees | [notebook](13-Ensemble-Learning-and-Random-Forest/05-Random-Forest-and-Extra-Trees/05-Random-Forest-and-Extra-Trees.ipynb) | - |
 | 13-6 Ada Boosting 和 Gradient Boosting | [notebook](13-Ensemble-Learning-and-Random-Forest/06-AdaBoost-and-Gradient-Boosting/06-AdaBoost-and-Gradient-Boosting.ipynb) | - |
 | 13-7 Stacking | - | - |
