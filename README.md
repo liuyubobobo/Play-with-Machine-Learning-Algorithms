@@ -46,7 +46,7 @@
 | 3-12 数据加载和简单的数据探索 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/12-Loading-Data-and-Simple-Data-Exploring/12-Loading-Data-and-Simple-Data-Exploring.ipynb) | - |
 | 补充代码1: 更多Numpy的操作 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/Optional-01-More-about-Numpy/Optional-01-More-about-Numpy.ipynb) | - |
 | 补充代码2: Numpy中的结构数组 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/Optional-02-Numpys-Structured-Arrays/Optional-02-Numpys-Structured-Arrays.ipynb) | - |
-| 补充代码3: 简单的MNIST数据集数据探索 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/Optional-03-MNIST-Simple-Data-Exploring/Optional-03-MNIST-Simple-Data-Exploring.ipynb) | [敬请期待] |
+| 补充代码3: 简单的MNIST数据集数据探索 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/Optional-03-MNIST-Simple-Data-Exploring/Optional-03-MNIST-Simple-Data-Exploring.ipynb) | - |
 | **第四章 最基础的分类算法-k近邻算法 kNN** | [章节文件夹](04-kNN/) | - |
 | 4-1 k近邻算法基础 | [notebook](04-kNN/01-kNN-Basics/01-kNN-Basics.ipynb) | - |
 | 4-2 scikit-learn中的机器学习算法封装 | [notebook](04-kNN/02-kNN-in-scikit-learn/02-kNN-in-scikit-learn.ipynb) | [script](04-kNN/02-kNN-in-scikit-learn/) |
@@ -181,3 +181,17 @@
 | 补充代码7: 手撕Stacking | [整理中] | [敬请期待] |
 | **第十四章 结语，大家加油！** | - | - |
 | 14-1 学习scikit-learn文档, 大家加油！ | - | - |
+
+## 课程补充内容
+
+除了上面课程目录中每个章节相应有一些课程的补充代码以外，这个课程在我最初设计的时候，比现在所呈现的样子要多一些（其实是很多...）内容。由于慕课网上的课程时间限制，所以不能完全以视频课程的形式展现出来。另外砍掉这部分内容，还有一个原因，是这部分内容，大多可以在慕课网上的其他课程上找到。不过，在这里，为了保持我的这个课程的完整性，我将这些内容以notebook的形式放在这个代码仓中，供感兴趣的同学参考：）
+
+| **补充章节一 Pandas** | [章节文件夹](Optional-01-Using-Pandas/) | - |
+| :--- | :---: | :---: |
+|  |  |  |
+| **补充章节二 Matplotlib** | - | - |
+|  |  |  |
+| **补充章节三 朴素的贝叶斯算法** | - | - |
+|  |  |  |
+| **补充章节四 神经网络** | - | - |
+|  |  |  |
