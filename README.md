@@ -44,7 +44,7 @@
 | 3-10 Numpy中的比较和Fancy Indexing | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/10-Comparison-and-Fancy-Indexing/10-Comparison-and-Fancy-Indexing.ipynb) | - |
 | 3-11 Matplotlib数据可视化基础 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/11-Matplotlib-Basics/11-Matplotlib-Basics.ipynb) | - |
 | 3-12 数据加载和简单的数据探索 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/12-Loading-Data-and-Simple-Data-Exploring/12-Loading-Data-and-Simple-Data-Exploring.ipynb) | - |
-| 补充代码1: 更多Numpy的操作 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/Optional-01-More-about-Numpy/Optional-01-More-about-Numpy.ipynb) | - |
+| 补充代码1: 更多Numpy的操作 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/Optional-01-More-about-Numpy-Operations/Optional-01-More-about-Numpy-Operations.ipynb) | - |
 | 补充代码2: Numpy中的结构数组 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/Optional-02-Numpys-Structured-Arrays/Optional-02-Numpys-Structured-Arrays.ipynb) | - |
 | 补充代码3: 简单的MNIST数据集数据探索 | [notebook](03-Jupyter-Notebook-Numpy-and-Matplotlib/Optional-03-MNIST-Simple-Data-Exploring/Optional-03-MNIST-Simple-Data-Exploring.ipynb) | - |
 | **第四章 最基础的分类算法-k近邻算法 kNN** | [章节文件夹](04-kNN/) | - |
@@ -195,3 +195,6 @@
 |  |  |  |
 | **补充章节四 神经网络** | - | - |
 |  |  |  |
+| **补充章节五 Kaggle实战** | - | - |
+|  |  |  |
+
