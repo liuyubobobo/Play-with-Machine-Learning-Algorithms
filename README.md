@@ -57,9 +57,9 @@
 | 4-7 数据归一化 | [notebook](04-kNN/07-Feature-Scaling/07-Feature-Scaling.ipynb) | - | 
 | 4-8 scikit-learn中的Scaler | [notebook](04-kNN/08-Scaler-in-Scikit-Learn/08-Scaler-in-Scikit-Learn.ipynb) | [playML](04-kNN/08-Scaler-in-Scikit-Learn/playML/) |
 | 4-9 更多有关k近邻算法的思考 | - | - |
-| 补充代码1: scikit-learn中的其他scaler | - | - |
-| 补充代码2: 网格搜索kNN中的不同距离定义 | - | - |
-| 补充代码3: 使用kNN算法处理MNIST手写识别数据集 | - | - |
+| 补充代码1: scikit-learn中的其他scaler | [整理中] | [敬请期待] |
+| 补充代码2: 网格搜索kNN中的不同距离定义 | [整理中] | [敬请期待] |
+| 补充代码3: 使用kNN算法处理MNIST手写识别数据集 | [整理中] | [敬请期待] |
 | **第五章 线性回归法** | [章节文件夹](05-Linear-Regression/) | |
 | 5-1 简单线性回归 | - | - |
 | 5-2 最小二乘法 | - | - |
@@ -189,12 +189,12 @@
 | **补充章节一 Pandas** | [章节文件夹](Optional-01-Using-Pandas/) | - |
 | :--- | :---: | :---: |
 |  |  |  |
-| **补充章节二 Matplotlib** | - | - |
+| **补充章节二 Matplotlib** | [整理中] | [敬请期待] |
 |  |  |  |
-| **补充章节三 朴素的贝叶斯算法** | - | - |
+| **补充章节三 朴素的贝叶斯算法** | [整理中] | [敬请期待] |
 |  |  |  |
-| **补充章节四 神经网络** | - | - |
+| **补充章节四 神经网络** | [整理中] | [敬请期待] |
 |  |  |  |
-| **补充章节五 Kaggle实战** | - | - |
+| **补充章节五 Kaggle案例** | [整理中] | [敬请期待] |
 |  |  |  |
 
