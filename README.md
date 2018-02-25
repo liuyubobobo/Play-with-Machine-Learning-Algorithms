@@ -96,11 +96,12 @@
 | 7-7 试手MNIST数据集 | [notebook](07-PCA-and-Gradient-Ascent/07-MNIST/07-MNIST.ipynb) | - |
 | 7-8 使用PCA对数据进行降噪 | [notebook](07-PCA-and-Gradient-Ascent/08-PCA-for-Noise-Reduction/08-PCA-for-Noise-Reduction.ipynb) | - |
 | 7-9 人脸识别与特征脸 | [notebook](07-PCA-and-Gradient-Ascent/09-Eigenface/09-Eigenface.ipynb) | - |
-| 补充代码1: IPCA | [整理中] | [敬请期待] |
-| 补充代码2: 随机化PCA | [整理中] | [敬请期待] |
-| 补充代码3: Kernel PCA | [整理中] | [敬请期待] |
-| 补充代码4: LLE | [整理中] | [敬请期待] |
-| 补充代码5: 更多降维方法 | [整理中] | [敬请期待] |
+| 补充代码1: 可视化三维数据的PCA过程 | [notebook]([07-PCA-and-Gradient-Ascent/Optional-01-PCA-in-3d-Data/Optional-01-PCA-in-3d-Data.ipynb]) | - |
+| 补充代码2: IPCA | [整理中] | [敬请期待] |
+| 补充代码3: 随机化PCA | [整理中] | [敬请期待] |
+| 补充代码4: Kernel PCA | [整理中] | [敬请期待] |
+| 补充代码5: LLE | [整理中] | [敬请期待] |
+| 补充代码6: 更多降维方法 | [整理中] | [敬请期待] |
 | **第八章 多项式回归与模型泛化** | [章节文件夹](08-Polynomial-Regression-and-Model-Generalization/) | - |
 | 8-1 什么是多项式回归 | [notebook](08-Polynomial-Regression-and-Model-Generalization/01-What-is-Polynomial-Regression/01-What-is-Polynomial-Regression.ipynb) | - |
 | 8-2 scikit-learn中的多项式回归与Pipeline | [notebook](08-Polynomial-Regression-and-Model-Generalization/02-Polynomial-Regression-in-scikit-learn/02-Polynomial-Regression-in-scikit-learn.ipynb) | - |
