@@ -90,7 +90,7 @@
 | 7-1 什么是PCA | - | - |
 | 7-2 使用梯度上升法求解PCA问题 | - | - |
 | 7-3 求数据的主成分 | [notebook](07-PCA-and-Gradient-Ascent/03-Implement-PCA-in-BGA/03-Implement-PCA-in-BGA.ipynb) | - |
-| 7-4 求数据的前n个主成分 | [notebook](07-PCA-and-Gradient-Ascent/04-Getting-First-N-Components/04-Getting-First-N-Components.ipynb) | - |
+| 7-4 求数据的前n个主成分 | [notebook](07-PCA-and-Gradient-Ascent/04-Getting-First-N-Components/04-Getting-First-n-Components.ipynb) | - |
 | 7-5 高维数据映射为低维数据 | [notebook](07-PCA-and-Gradient-Ascent/05-Data-Projection/05-Data-Projection.ipynb) | [playML](07-PCA-and-Gradient-Ascent/05-Data-Projection/playML/) |
 | 7-6 scikit-learn中的PCA | [notebook](07-PCA-and-Gradient-Ascent/06-PCA-in-scikit-learn/06-PCA-in-scikit-learn.ipynb) | - |
 | 7-7 试手MNIST数据集 | [notebook](07-PCA-and-Gradient-Ascent/07-MNIST/07-MNIST.ipynb) | - |
