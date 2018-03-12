@@ -25,6 +25,6 @@ def root_mean_squared_error(y_true, y_predict):
 
 
 def mean_absolute_error(y_true, y_predict):
-    """计算y_true和y_predict之间的RMSE"""
+    """计算y_true和y_predict之间的MAE"""
 
     return np.sum(np.absolute(y_true - y_predict)) / len(y_true)
