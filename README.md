@@ -17,6 +17,11 @@
 ![qrcode](qrcode.jpg)
 
 
+
+**强烈推荐推荐课程同学 @Howie 倾情为大家制作的机器学习资源检索站：[mlhub123](https://www.mlhub123.com/)**，欢迎大家围观使用支持：）传送门：[**https://www.mlhub123.com/**](https://www.mlhub123.com/)
+
+![mlhub123](mlhub123.PNG)
+
 ## 课程源码目录 
 
 | 第一章 欢迎来到 Python3 玩转机器学习 | 章节文件夹 | - |
