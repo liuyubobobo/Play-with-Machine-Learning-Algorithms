@@ -18,7 +18,7 @@
 
 
 
-**推荐一下这门课程的同学 @Howie 倾情为大家制作的机器学习资源检索站：[mlhub123](https://www.mlhub123.com/)**，欢迎大家围观使用支持：）传送门：[**https://www.mlhub123.com/**](https://www.mlhub123.com/)
+推荐一下这门课程的同学 [**@howie6879**](https://github.com/howie6879) 倾情为大家制作的**机器学习资源导航检索站：[mlhub123](https://www.mlhub123.com/)**，欢迎大家围观使用支持：）传送门：[**https://www.mlhub123.com/**](https://www.mlhub123.com/) 大家有更多机器学习领域的开源资源，也可以在这个项目的github页面：[**howie6879/mlhub123**](https://github.com/howie6879/mlhub123) 提issue，给这个项目做贡献：）
 
 ![mlhub123](mlhub123.png)
 
