@@ -30,3 +30,8 @@ __pycache__/
 #######################
 ppt/
 *.pdf
+
+Optional-01-Using-Pandas/
+Optional-02-More-about-Matplotlib/
+Optional-03-Native-Bayes-Algorithm/
+Optional-04-Neuro-Networks/
