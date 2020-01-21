@@ -62,7 +62,8 @@
 | 4-9 更多有关k近邻算法的思考 | - | - |
 | 补充代码1: scikit-learn中的其他scaler | [整理中] | [敬请期待] |
 | 补充代码2: 网格搜索kNN中的不同距离定义 | [整理中] | [敬请期待] |
-| 补充代码3: 使用我们自己的kNN算法处理MNIST手写识别数据集 | [notebook](04-kNN/Optional-03-kNN-for-MNIST/Optional-03-kNN-for-MNIST.ipynb) | - |
+| 补充代码3: 使用我们自己的kNN算法处理手写数字识别问题 | [notebook](04-kNN/Optional-03-kNN-for-digits/Optional-03-kNN-for-digits.ipynb) | [playML](04-kNN/Optional-03-kNN-for-digits/playML/) |
+| 补充代码4: 使用我们自己的kNN算法处理MNIST手写识别数据集 | [notebook](04-kNN/Optional-03-kNN-for-MNIST/Optional-03-kNN-for-MNIST.ipynb) | [playML](04-kNN/Optional-04-kNN-for-MNIST/playML/) |
 | **第五章 线性回归法** | [章节文件夹](05-Linear-Regression/) | |
 | 5-1 简单线性回归 | - | - |
 | 5-2 最小二乘法 | - | - |
