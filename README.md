@@ -131,7 +131,8 @@
 | 9-8 OvR与OvO | [notebook](09-Logistic-Regression/08-OVR-and-OVO/08-OVR-and-OVO.ipynb) | - |
 | 补充代码1: kNN的决策边界 | [notebook](09-Logistic-Regression/Optional-01-kNN-Decision-Boundary/Optional-01-kNN-Decision-Boundary.ipynb) | - |
 | 补充代码2: scikit-learn中的LogisticRegressionCV | [notebook](09-Logistic-Regression/Optional-02-LogisticRegressionCV/Optional-02-LogisticRegressionCV.ipynb) | - |
-| 补充代码3: scikit-learn中随机梯度下降法训练逻辑回归 | [整理中] | [敬请期待] |
+| 补充代码3: 使用 LogisticRegression 处理 MNIST 数据集 | [notebook](09-Logistic-Regression/Optional-03-MNIST-in-LogisticRegression/Optional-03-MNIST-in-LogisticRegression.ipynb) | - |
+| 补充代码4: scikit-learn中随机梯度下降法训练逻辑回归 | [整理中] | [敬请期待] |
 | **第十章 分类算法的评价** | [章节文件夹](10-Classification-Performance-Measures/) | - |
 | 10-1 准确度的陷阱和混淆矩阵 | - | - |
 | 10-2 精准率和召回率 | - | - |
